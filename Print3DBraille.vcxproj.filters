@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>c5195d75-8ee3-4cba-ac68-72f679fc2871</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>992e7d61-ed81-43d9-8327-adc369194398</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Direct3DShow.cpp" />
+    <ClCompile Include="InitDatabase.cpp" />
+    <ClCompile Include="LoadFileData.cpp" />
+    <ClCompile Include="RecognizeLanguage.cpp" />
+    <ClCompile Include="SavaSTL.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="ToSTL.cpp" />
+    <ClCompile Include="TranslateNumber.cpp" />
+    <ClCompile Include="WordCount.cpp" />
+    <ClCompile Include="TranslateEnglish.cpp" />
+    <ClCompile Include="TranslateSymbol.cpp" />
+    <ClCompile Include="ShowResult.cpp" />
+    <ClCompile Include="TranslateChinese.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Direct3DShow.h" />
+    <ClInclude Include="InitDatabase.h" />
+    <ClInclude Include="LoadFileData.h" />
+    <ClInclude Include="RecognizeLanguage.h" />
+    <ClInclude Include="SavaSTL.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="STRUCT.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ToSTL.h" />
+    <ClInclude Include="TranslateNumber.h" />
+    <ClInclude Include="WordCount.h" />
+    <ClInclude Include="TranslateEnglish.h" />
+    <ClInclude Include="TranslateSymbol.h" />
+    <ClInclude Include="ShowResult.h" />
+    <ClInclude Include="TranslateChinese.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Print3DBraille_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+</Project>
